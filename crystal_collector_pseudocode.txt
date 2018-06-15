@@ -1,0 +1,16 @@
+Crystal collecter
+jquery web based game
+
+Genrate random number
+Four Crystals, each represents a number
+
+On each click to Crystal, add Crystal number to score
+
+If score matched the random number then Win
+If score went over random number then lost
+
+Number on crystal are randomly generated between 1 and 12
+
+Guess Number is randomly generated number between 19 and 120
+
+

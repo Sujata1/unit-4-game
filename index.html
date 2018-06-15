@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Crystal Collector!!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="assets/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h2>Crystal Collector!</h2>
+
+        <div class="row">
+            <div class="col-md-12  numberToWin-column">
+                <P>
+                    <span id="numberToWin"></span>
+                </P>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 numberScore-column">
+                <P>Your Total Score Is</P>
+                <P>
+                    <span id="numberScore"></span>
+                </P>
+            </div>
+
+            <div class="col-md-4 finalWin-column">
+                <p>
+                    <span id="finalResult"></span>
+                </p>
+                <P>Win :
+                    <span id="totalWin">0</span>
+                </P>
+                <P>Loss :
+                    <span id="totaLoss">0</span>
+                </P>
+            </div>
+        </div>
+
+        <div class="row" id="crystals">
+            <div class="col-md-12">
+            </div>
+        </div>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="./assets/game.js"></script>
+</body>
+
+</html>
